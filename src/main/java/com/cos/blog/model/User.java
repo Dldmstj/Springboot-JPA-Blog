@@ -29,7 +29,7 @@ public class User {
 	@Column(nullable = false, length = 30, unique = true)
 	private String userName;		// 아이디, 중복 x
 	
-	@Column(nullable = false, length = 100)		// hash로 비밀번호 암호화
+	@Column(nullable = false, length = 500)		// hash로 비밀번호 암호화
 	private String pw;		// 비밀번호
 	
 	@Column(nullable = false, length = 50)
